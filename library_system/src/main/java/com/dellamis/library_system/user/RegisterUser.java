@@ -15,6 +15,7 @@ public class RegisterUser {
 
     private String firstName;
     private String lastName;
+    private String userName;
     private Set<RoleList> roles;
 
     private String password;

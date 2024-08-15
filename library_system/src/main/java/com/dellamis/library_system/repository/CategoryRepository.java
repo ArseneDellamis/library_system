@@ -1,0 +1,7 @@
+package com.dellamis.library_system.repository;
+
+import com.dellamis.library_system.book.Category;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface CategoryRepository extends JpaRepository<Category, Long> {
+}

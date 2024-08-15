@@ -23,6 +23,13 @@ public class generalController {
     private final UserRepository userRepository;
     private final RoleRepository roleRepository;
 
+    /*
+    Enter this Json data in your postman on this endpoint
+    HTTP method: POST
+    endpoint: http://localhost:8080/api/lib/register
+    Json:
+     */
+
     @PostMapping("/register")
     public ResponseEntity<?> register(
             @RequestBody RegisterUser registerUser
